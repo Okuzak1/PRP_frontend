@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PRP_frontend/static/css/main.2be494a6.css",
-    "main.js": "/PRP_frontend/static/js/main.5fd72f78.js",
+    "main.js": "/PRP_frontend/static/js/main.a5d2bc5d.js",
     "static/media/Inter.ttc": "/PRP_frontend/static/media/Inter.9918e58845c29a5513a4.ttc",
     "static/media/三官图地官.png": "/PRP_frontend/static/media/三官图地官.7bf0da74cd7e6f71d32e.png",
     "static/media/水殿招凉.png": "/PRP_frontend/static/media/水殿招凉.1c732b5bf7f42c6c8327.png",
@@ -18,10 +18,10 @@
     "static/media/DefaultAvatar2x.png": "/PRP_frontend/static/media/DefaultAvatar2x.af63f9fbae69b19a66a8.png",
     "index.html": "/PRP_frontend/index.html",
     "main.2be494a6.css.map": "/PRP_frontend/static/css/main.2be494a6.css.map",
-    "main.5fd72f78.js.map": "/PRP_frontend/static/js/main.5fd72f78.js.map"
+    "main.a5d2bc5d.js.map": "/PRP_frontend/static/js/main.a5d2bc5d.js.map"
   },
   "entrypoints": [
     "static/css/main.2be494a6.css",
-    "static/js/main.5fd72f78.js"
+    "static/js/main.a5d2bc5d.js"
   ]
 }
