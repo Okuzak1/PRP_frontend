@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-/src/**/*[Tt][Ee][Ss][Tt]*
+# /src/**/*[Tt][Ee][Ss][Tt]*
 
 # production
 /build

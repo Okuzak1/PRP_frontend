@@ -1,7 +1,7 @@
 {
   "name": "PRP_frontend",
   "version": "0.1.0",
-  "homepage": "https://okuzak1.github.io/PRP_frontend/",
+  "homepage": "https://Okuzak1.github.io/PRP_frontend/",
   "private": true,
   "dependencies": {
     "@fontsource/inter": "^5.1.0",

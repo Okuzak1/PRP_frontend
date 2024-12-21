@@ -1,7 +1,7 @@
 import ArtGalleryPage from "../page/ArtGalleryPage";
 import PictureDetailPage from "../page/PictureDetailPage";
 import ProfilePage from "../page/ProfilePage";
-import RegisiterPage from "../page/RegisterPage";
+import RegisterPage from "../page/RegisterPage";
 import SearchPage from "../page/SearchPage";
 import TestPage from "../page/TestPage";
 
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     },
     {
         path:'/register',
-        element: <RegisiterPage />
+        element: <RegisterPage />
     },
     {
         path:'/profile',
@@ -43,6 +43,8 @@ const router = createBrowserRouter([
         path:'/test',
         element: <TestPage />
     }
-])
+], 
+{basename: '/PRP_frontend'}  // github page
+);
 
 export default router
