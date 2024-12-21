@@ -1,0 +1,11 @@
+.avatarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 50%; /* 圆形边框 */
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+  }
+  

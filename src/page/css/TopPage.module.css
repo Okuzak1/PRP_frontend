@@ -1,0 +1,193 @@
+/* header */
+
+.header {
+    height: 7.78vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerSpace{
+    flex-grow: 1;
+}
+
+.button {
+    border-radius: 4.63vh;
+    border-width: 0;
+    height: 4.63vh;
+    background-color: rgba(153, 126, 96, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 0.9vw;
+    margin: 0 1.09735vw;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #ffffff; /* 背景变为纯白色 */
+}
+
+.button:hover .buttonText {
+    color: #997E60; /* 修改文字颜色 */
+}
+
+.button:hover .buttonIconContainer svg {
+    fill: #997E60; /* 修改图标颜色 */
+}
+
+#artGalleryButton {
+    width: 8.33vw;
+}
+
+#profileButton {
+    width: 10.42vw;
+}
+
+.buttonText {
+    text-align: center;
+    vertical-align: top;
+    font-size: 2vh;
+    font-weight: 800;
+    font-feature-settings: 'liga' 1, 'calt' 1; 
+    color: #ffffff;
+    /* font-family: Inter; */
+
+    margin: 0;
+    transition: fill 0.3s ease;
+}
+
+.buttonIconContainer {
+    width: 3vh; /* 设置图标的宽度 */
+    height: 3vh; /* 设置图标的高度 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.buttonIconContainer svg {
+    width: 100%; /* SVG 自适应容器宽度 */
+    height: 100%; /* SVG 自适应容器高度 */
+    fill: #ffffff;
+    transition: fill 0.3s ease;
+}
+
+
+/* search-box */
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 42.22vh; /* 占据屏幕中央的区域 */
+    margin-bottom: 5vh;
+
+  }
+
+.searchBox {
+    border-radius: 4.63vh;
+    height: 9.26vh;
+    width: 52vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 3.241vh;
+}
+
+.searchInput {
+    flex-grow: 1;
+    outline: none;
+    border-width: 0;
+    height: 8vh;
+    margin: 0 1vh;
+
+    text-align: left;
+    vertical-align: middle;
+    font-size: 3vh;
+    /* font-family: Inter; */
+    font-weight: 800;
+    line-height: auto;
+    color: #dec6a2;
+}
+
+.searchInput::placeholder {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 3vh;
+    font-family: 'Inter';
+    font-weight: 800;
+    line-height: auto;
+    color: #dec6a2;
+  }
+
+.searchIconContainer {
+    width: 4vh; /* 设置图标的宽度 */
+    height: 4vh; /* 设置图标的高度 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1vh;
+    fill: #ffffff;
+
+}
+
+.searchIconContainer svg {
+    width: 100%; /* SVG 自适应容器宽度 */
+    height: 100%; /* SVG 自适应容器高度 */
+}
+
+
+/* navigation */
+.navigationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.naviBox {
+    width: 5.05vw;
+    aspect-ratio: 1.47;
+    margin-right: 2.604vw;
+}
+
+.naviButton { 
+    width: 5.05vw;
+    aspect-ratio: 1;
+    border-radius: 2.60417vw;
+    background-color: rgba(255, 255, 255, 0.356);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.naviText {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.2625vw;
+    font-weight: 600;
+    font-family: 'Inter';
+    line-height: auto;
+    color: #ffffff;
+}
+
+.naviIconContainer {
+    width: 2.525vw; /* 设置图标的宽度 */
+    height: 2.525vw; /* 设置图标的高度 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.naviIconContainer svg {
+    width: 100%; /* SVG 自适应容器宽度 */
+    height: 100%; /* SVG 自适应容器高度 */
+    fill: white;
+}
+
+
+

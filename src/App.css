@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.backgroundPage {
+  background-image: url('./asset/Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+img {
+    width: 100%; /* 先缩放图像到容器大小 */
+    height: 100%;
+    object-fit: cover; /* 等比例缩放并居中裁剪 */
+    object-position: center;
+}
+
+button, p, .text {
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.buttonFlat {
+  width: 8.33333vw;
+  aspect-ratio: 3.2;
+  border-radius: 2.6042vw;
+  background-color: rgba(222, 198, 162, 1);
+  border-width: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 0.9vw;
+}
+
+.buttonFlat .buttonIconContainer {
+  width: 1.75vw; /* 设置图标的宽度 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonFlat .buttonIconContainer svg {
+  width: 100%; /* SVG 自适应容器宽度 */
+  height: 100%; /* SVG 自适应容器高度 */
+  fill: #625745;
+}
+
+.buttonFlat .buttonText {
+  font-size: 1.2vw;
+  font-weight: 600;
+  /* font-family: Inter; */
+  line-height: auto;
+  color:  #625745;
+  margin: 0;
+}
+
+
+/* 设置全局滚动条样式 组件滚动条 */
+
+/* 滚动条整体 */
+.scrollbarContainer::-webkit-scrollbar {
+  width: 10px; /* 滚动条宽度 */
+}
+
+/* 滚动条轨道（背景） */
+.scrollbarContainer::-webkit-scrollbar-track {
+  background: #dec6a280; /* 滚动条轨道背景颜色 */
+  border-radius: 3.5px; /* 圆角样式 */
+}
+
+/* 滚动条滑块 */
+.scrollbarContainer::-webkit-scrollbar-thumb {
+  background: #DEC6A2; /* 滑块颜色 */
+  border-radius: 3.5px; /* 圆角样式 */
+}
+
+/* 设置全局滚动条样式 页面滚动条 */
+/* 滚动条整体 */
+::-webkit-scrollbar {
+  width: 1.66667vw; /* 滚动条宽度 */
+}
+
+/* 滚动条轨道（背景） */
+::-webkit-scrollbar-track {
+  background: #DEC6A2; /* 滚动条轨道背景颜色 */
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  background: #FFFCF6; /* 滑块颜色 */
+  border-radius: 15px; /* 圆角样式 */
+  border: 0.3vw solid #DEC6A2; /* 滑块稍窄 */
+}
