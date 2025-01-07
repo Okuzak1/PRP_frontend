@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PRP_frontend/static/css/main.69e6fc49.css",
-    "main.js": "/PRP_frontend/static/js/main.7dfc1cc3.js",
+    "main.css": "/PRP_frontend/static/css/main.a699c75a.css",
+    "main.js": "/PRP_frontend/static/js/main.02e07f5b.js",
     "static/media/Inter.ttc": "/PRP_frontend/static/media/Inter.9918e58845c29a5513a4.ttc",
     "static/media/case2.png": "/PRP_frontend/static/media/case2.36588cb853c630c2b987.png",
     "static/media/三官图地官.png": "/PRP_frontend/static/media/三官图地官.7bf0da74cd7e6f71d32e.png",
@@ -20,11 +20,11 @@
     "static/media/长夏江寺图.png": "/PRP_frontend/static/media/长夏江寺图.49e5c171a80d15382e1c.png",
     "static/media/DefaultAvatar2x.png": "/PRP_frontend/static/media/DefaultAvatar2x.af63f9fbae69b19a66a8.png",
     "index.html": "/PRP_frontend/index.html",
-    "main.69e6fc49.css.map": "/PRP_frontend/static/css/main.69e6fc49.css.map",
-    "main.7dfc1cc3.js.map": "/PRP_frontend/static/js/main.7dfc1cc3.js.map"
+    "main.a699c75a.css.map": "/PRP_frontend/static/css/main.a699c75a.css.map",
+    "main.02e07f5b.js.map": "/PRP_frontend/static/js/main.02e07f5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.69e6fc49.css",
-    "static/js/main.7dfc1cc3.js"
+    "static/css/main.a699c75a.css",
+    "static/js/main.02e07f5b.js"
   ]
 }
