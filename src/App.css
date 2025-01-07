@@ -5,7 +5,7 @@ body {
 
 .backgroundPage {
   background-image: url('./asset/Background.png');
-  background-repeat: repeat-y;  /*no-repeat*/
+  background-repeat: no-repeat;  /*no-repeat*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -83,7 +83,6 @@ button, p, .text {
 /* 滚动条整体 */
 ::-webkit-scrollbar {
   width: 1.66667vw; /* 滚动条宽度 */
-  position: absolute;
 }
 
 /* 滚动条轨道（背景） */
