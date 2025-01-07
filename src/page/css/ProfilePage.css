@@ -1,8 +1,0 @@
-.markedPictureContainer .ant-carousel { 
-    grid-area: 1 / 1 / 3 / 2;
-    width: 46.49vw;
-}
-
-.markedPictureContainer .ant-carousel div {
-    border-radius: 2.5253vw;
-}

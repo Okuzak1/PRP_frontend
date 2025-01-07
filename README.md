@@ -1,14 +1,3 @@
-# Switch deploy mode
-
-### 1. Switch to Github Page front-end only mode
-* set `homepage` property in `package.json` to "homepage": "https://Okuzak1.github.io/PRP_frontend/",
-* set `basename` property in `route/index.jsx` to "{basename: '/PRP_frontend'}"
-* set `.env` to `REACT_APP_DEPLOY_MODE=frontend_only`
-### 2. Switch to front-end with back-end mode
-* clear `homepage` property in `package.json`
-* clear `basename` property in `route/index.jsx`
-* set `.env` to `REACT_APP_DEPLOY_MODE=backended`
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
