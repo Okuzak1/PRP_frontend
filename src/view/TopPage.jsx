@@ -237,7 +237,7 @@ const TopPage = () => {
       </div>
 
       {isSidebarOpen && (
-        <div className={styles.mainContentContainer}>
+        <div className={`${styles.mainContentContainer} ${focusChatId && styles.bottomMode}`}>
           {/* AI 对话栏 */}
           {focusChatId && (
             <div className={styles.llmDialogContainer} ref={messageContainerRef}>

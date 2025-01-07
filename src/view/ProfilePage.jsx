@@ -15,6 +15,7 @@ import Jiaomintu from "../asset/pictures/personalUpload/龙宿郊民图.png"
 import Suichaotu from "../asset/pictures/personalUpload/岁朝图.png"
 import { useState } from "react";
 import { Carousel } from "antd";
+import ImageUploadWindow from "../component/ImageUploadWindow";
 
 
 const defaultMarkedImg = [Sanguantu, Youchuntu, Zhaoliang]
@@ -26,6 +27,7 @@ const ProfilePage = () => {
 
     const [isCreateDetailVisible, setCreateDetailVisible] = useState(false);
     const [isPersonalProjectDetailVisible, setPersonalProjectDetailVisible] = useState(0);
+    const [isUploadImage, setIsUploadImage] = useState(false);
 
 
     const [visibilityStates, setVisibilityStates] = useState(
@@ -48,15 +50,18 @@ const ProfilePage = () => {
 
     return (
         <div className={styles.profilePage}>
-
+            {isUploadImage && <ImageUploadWindow onClose={() => setIsUploadImage(!isUploadImage)} />}
             <button className={styles.backwardButton + " buttonFlat"} onClick={() => navigate('/')}>
                 <div className={"buttonIconContainer"}><ExitIcon /></div>
                 <p className={"buttonText"}>退出</p>
             </button>
             <div className={styles.uploadAndCreateButtons}>
-                <button className={styles.buttons + " buttonFlat"}>
+                <button
+                    className={styles.buttons + " buttonFlat"}
+                    onClick={() => setIsUploadImage(!isUploadImage)}
+                >
                     <div className={"buttonIconContainer"}><UploadIcon /></div>
-                    <p className={"buttonText"}>上传</p>
+                    <p className={"buttonText"} >上传</p>
                 </button>
 
                 <button

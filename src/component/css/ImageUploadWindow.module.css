@@ -1,0 +1,227 @@
+/* 黑色蒙版覆盖整个页面 */
+.imageUploadWindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* 半透明黑色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    /* 确保在最上层 */
+}
+
+.imageUploadStage {
+    width: 73vw;
+    height: 74vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.imageUploadStage .imageUploadCotainer {
+    width: 100%;
+    height: 56.11vh;
+
+    background-color: #DEC6A2CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top-left-radius: 0.3125vw;
+    border-top-right-radius: 0.3125vw;
+}
+
+.imageUploadStage .imageUploadCotainer .imageUploadBox {
+    width: 64.323vw;
+    height: 45.56vh;
+
+    border-radius: 4.63vh;
+    border-width: 0.926vh;
+    border-style: dashed;
+    border-color: #FEF6E1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imageUploadStage .buttonContainer {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FEF6E1;
+
+    border-bottom-left-radius: 0.3125vw;
+    border-bottom-right-radius: 0.3125vw;
+}
+
+.button {
+    border-radius: 4.63vh;
+    border-style: hidden;
+    background-color: #997E60;
+    /* button text */
+    text-align: center;
+    font-size: 1.875vw;
+    font-weight: 600;
+    /* font-family: Inter; */
+    line-height: auto;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.imageUploadStage .buttonContainer .button {
+    width: 10.9375vw;
+    height: 7.41vh;
+}
+
+/* 固定长宽的窗口 */
+.propertyInputStage {
+    width: 73vw;
+    height: 74vh;
+    overflow-y: auto;
+
+    border-bottom-left-radius: 0.3125vw;
+    border-top-left-radius: 0.3125vw;
+}
+
+/* 滚动条轨道（背景） */
+.propertyInputStage::-webkit-scrollbar-track {
+    background: #997E60;
+    /* 滚动条轨道背景颜色 */
+}
+
+.propertyInputStage::-webkit-scrollbar-thumb {
+    border-color: #997E60;
+}
+
+
+/* 1400*1800 */
+.propertyInputStage .propertyInputContainer {
+    
+    height: 1.67v;
+    padding-left: 2.5vw;
+    padding-top: 4.63vh;
+
+    display: grid;
+    grid-template-columns: 32.55vw 32.03125vw;
+    grid-template-rows: 33.15vh 35.52vh 33.8vh 32.41vh;
+    grid-column-gap: 0.9375vw;
+    grid-row-gap: 2.4vh;
+
+    background-color: #DEC6A2;
+    border-bottom-left-radius: 0.3125vw;
+    border-top-left-radius: 0.3125vw;
+}
+
+/* 指白色小矩形 不规定长宽*/
+.propertyInputStage .propertyInputContainer .infoBlock {
+    background-color: #FFFCF6;
+    border-radius: 0.3125vw;
+
+    font-size: 1.852vh;
+    color: #625745;
+    font-weight: 600;
+}
+
+/* 如：缩略图 背景简介…… */
+.infoBlock.largeInfoBlock {
+    padding: 2.41vh 2.29vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 如：名称 作者……  规定长宽*/
+.infoBlock.smallInfoBlock {
+    text-align: center;
+    width: 8.333vw;
+    height: 5.741vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 如：名称：XXX 作者：XXX 的一大块container*/
+.propertyInfoContainer {
+    /* display: grid;
+    grid-template-rows: repeat(auto-fill,  11.1111vh);
+    grid-template-columns: 8.333vw 23.1771vw;
+    grid-column-gap: 0.521vw;
+    grid-row-gap: 1.111vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.111vh;
+}
+
+/* 名称：XXX 作者：XXX 的一行 */
+.propertyInfoContainer .propertyInfoBox {
+    height: 5.741vh;
+    display: flex;
+    flex-direction: row;
+    gap: 0.521vw;
+}
+
+/* 名称：XXX 作者：XXX 中的XXX */
+.propertyInfoContainer .propertyInfoBox .propertyInfo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#thumbnail {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#basicInfoContainer {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#backgroundIntro {
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+#colorSchemeAndPoem {
+    grid-area: 3 / 1 / 5 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.13vh;
+}
+
+#colorScheme {
+    flex-grow: 1;
+}
+
+#poem {
+    flex-grow: 1;
+}
+
+#otherInfoContainer {
+    grid-area: 3 / 2 / 5 / 3;
+}
+
+/* 底部按钮容器 */
+.footerButtonContainer {
+    height: 20.278vh;
+    background-color: #DEC6A2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.propertyInputStage .footerButtonContainer .button {
+    width: 15.625vw;
+    height: 8.333vh;
+}

@@ -232,6 +232,10 @@
     width: 81.25vw;
 }
 
+.mainContentContainer.bottomMode {
+    justify-content: space-between;
+}
+
 /* AI content */
 .llmDialogContainer {
     overflow-y: auto;
